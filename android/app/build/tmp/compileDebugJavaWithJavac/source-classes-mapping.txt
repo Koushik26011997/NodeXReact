@@ -1,0 +1,9 @@
+com/rgrocery/MainActivity.java
+ com.rgrocery.MainActivity
+com/rgrocery/BuildConfig.java
+ com.rgrocery.BuildConfig
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList
+com/rgrocery/MainApplication.java
+ com.rgrocery.MainApplication
+ com.rgrocery.MainApplication$1

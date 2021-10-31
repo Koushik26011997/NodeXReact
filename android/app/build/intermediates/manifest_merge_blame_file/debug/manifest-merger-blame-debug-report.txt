@@ -1,0 +1,101 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.rgrocery"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/home/sanu/Desktop/React/rgrocery/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/home/sanu/Desktop/React/rgrocery/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/sanu/Desktop/React/rgrocery/android/app/src/main/AndroidManifest.xml:4:3-65
+11-->/home/sanu/Desktop/React/rgrocery/android/app/src/main/AndroidManifest.xml:4:20-62
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->/home/sanu/Desktop/React/rgrocery/android/app/src/main/AndroidManifest.xml:5:3-78
+12-->/home/sanu/Desktop/React/rgrocery/android/app/src/main/AndroidManifest.xml:5:20-75
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->/home/sanu/Desktop/React/rgrocery/android/app/src/main/AndroidManifest.xml:6:3-79
+13-->/home/sanu/Desktop/React/rgrocery/android/app/src/main/AndroidManifest.xml:6:20-76
+14    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+14-->[com.facebook.flipper:flipper:0.75.1] /home/sanu/.gradle/caches/transforms-2/files-2.1/a8f6015f96666ab8d93bfe5b64998bc8/jetified-flipper-0.75.1/AndroidManifest.xml:16:5-76
+14-->[com.facebook.flipper:flipper:0.75.1] /home/sanu/.gradle/caches/transforms-2/files-2.1/a8f6015f96666ab8d93bfe5b64998bc8/jetified-flipper-0.75.1/AndroidManifest.xml:16:22-73
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Required to access Google Play Licensing -->
+15-->[:react-native-network-info] /home/sanu/Desktop/React/rgrocery/node_modules/react-native-network-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-79
+15-->[:react-native-network-info] /home/sanu/Desktop/React/rgrocery/node_modules/react-native-network-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:22-76
+16    <uses-permission android:name="com.android.vending.CHECK_LICENSE" />
+16-->[:rn-fetch-blob] /home/sanu/Desktop/React/rgrocery/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-73
+16-->[:rn-fetch-blob] /home/sanu/Desktop/React/rgrocery/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:22-70
+17    <!--
+18         Required to keep CPU alive while downloading files
+19        (NOT to keep screen awake)
+20    -->
+21    <uses-permission android:name="android.permission.WAKE_LOCK" />
+21-->[:rn-fetch-blob] /home/sanu/Desktop/React/rgrocery/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:5-68
+21-->[:rn-fetch-blob] /home/sanu/Desktop/React/rgrocery/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:22-65
+22
+23    <application
+23-->/home/sanu/Desktop/React/rgrocery/android/app/src/main/AndroidManifest.xml:8:5-27:19
+24        android:name="com.rgrocery.MainApplication"
+24-->/home/sanu/Desktop/React/rgrocery/android/app/src/main/AndroidManifest.xml:9:7-38
+25        android:allowBackup="false"
+25-->/home/sanu/Desktop/React/rgrocery/android/app/src/main/AndroidManifest.xml:13:7-34
+26        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+26-->[androidx.core:core:1.1.0] /home/sanu/.gradle/caches/transforms-2/files-2.1/d67cd79abd1ca209502f51c69d23182b/core-1.1.0/AndroidManifest.xml:24:18-86
+27        android:debuggable="true"
+28        android:icon="@mipmap/ic_launcher"
+28-->/home/sanu/Desktop/React/rgrocery/android/app/src/main/AndroidManifest.xml:11:7-41
+29        android:label="@string/app_name"
+29-->/home/sanu/Desktop/React/rgrocery/android/app/src/main/AndroidManifest.xml:10:7-39
+30        android:roundIcon="@mipmap/ic_launcher_round"
+30-->/home/sanu/Desktop/React/rgrocery/android/app/src/main/AndroidManifest.xml:12:7-52
+31        android:theme="@style/AppTheme"
+31-->/home/sanu/Desktop/React/rgrocery/android/app/src/main/AndroidManifest.xml:15:7-38
+32        android:usesCleartextTraffic="true" >
+32-->/home/sanu/Desktop/React/rgrocery/android/app/src/main/AndroidManifest.xml:14:7-42
+33        <activity
+33-->/home/sanu/Desktop/React/rgrocery/android/app/src/main/AndroidManifest.xml:16:7-26:18
+34            android:name="com.rgrocery.MainActivity"
+34-->/home/sanu/Desktop/React/rgrocery/android/app/src/main/AndroidManifest.xml:17:9-37
+35            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+35-->/home/sanu/Desktop/React/rgrocery/android/app/src/main/AndroidManifest.xml:19:9-86
+36            android:label="@string/app_name"
+36-->/home/sanu/Desktop/React/rgrocery/android/app/src/main/AndroidManifest.xml:18:9-41
+37            android:launchMode="singleTask"
+37-->/home/sanu/Desktop/React/rgrocery/android/app/src/main/AndroidManifest.xml:20:9-40
+38            android:windowSoftInputMode="adjustResize" >
+38-->/home/sanu/Desktop/React/rgrocery/android/app/src/main/AndroidManifest.xml:21:9-51
+39            <intent-filter>
+39-->/home/sanu/Desktop/React/rgrocery/android/app/src/main/AndroidManifest.xml:22:9-25:25
+40                <action android:name="android.intent.action.MAIN" />
+40-->/home/sanu/Desktop/React/rgrocery/android/app/src/main/AndroidManifest.xml:23:13-65
+40-->/home/sanu/Desktop/React/rgrocery/android/app/src/main/AndroidManifest.xml:23:21-62
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->/home/sanu/Desktop/React/rgrocery/android/app/src/main/AndroidManifest.xml:24:13-73
+42-->/home/sanu/Desktop/React/rgrocery/android/app/src/main/AndroidManifest.xml:24:23-70
+43            </intent-filter>
+44        </activity>
+45
+46        <provider
+46-->[:rn-fetch-blob] /home/sanu/Desktop/React/rgrocery/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:36:9-44:20
+47            android:name="com.RNFetchBlob.Utils.FileProvider"
+47-->[:rn-fetch-blob] /home/sanu/Desktop/React/rgrocery/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:37:13-62
+48            android:authorities="com.rgrocery.provider"
+48-->[:rn-fetch-blob] /home/sanu/Desktop/React/rgrocery/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:38:13-60
+49            android:exported="false"
+49-->[:rn-fetch-blob] /home/sanu/Desktop/React/rgrocery/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:39:13-37
+50            android:grantUriPermissions="true" >
+50-->[:rn-fetch-blob] /home/sanu/Desktop/React/rgrocery/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:40:13-47
+51            <meta-data
+51-->[:rn-fetch-blob] /home/sanu/Desktop/React/rgrocery/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:41:13-43:58
+52                android:name="android.support.FILE_PROVIDER_PATHS"
+52-->[:rn-fetch-blob] /home/sanu/Desktop/React/rgrocery/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:42:17-67
+53                android:resource="@xml/provider_paths" />
+53-->[:rn-fetch-blob] /home/sanu/Desktop/React/rgrocery/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:43:17-55
+54        </provider>
+55    </application>
+56
+57</manifest>
