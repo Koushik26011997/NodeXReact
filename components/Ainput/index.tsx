@@ -1,28 +1,23 @@
-import React, { useState } from 'react';
-import {
-  View,
-  TextInput,
-  StyleSheet
-} from 'react-native';
-import { normalizeSize } from '../../utility/MyUtility';
+import React, {useState} from 'react';
+import {View, TextInput, StyleSheet} from 'react-native';
+import {normalizeSize} from '../../utility/MyUtility';
 
 const Ainput = ({
   autoFocus = false,
   value = '',
-  onChangeText = (val: any) => { },
+  onChangeText = (val: any) => {},
   multiline = false,
-  onBlur = () => { },
+  onBlur = () => {},
   placeholder = '',
   numberOfLines = 1,
   border = '#76A8C8',
   style = {},
   type = 'default',
   editable = true,
-  secureTextEntry = false
+  secureTextEntry = false,
 }) => {
   return (
     <View style={[styles.containerStyle]}>
-
       <TextInput
         secureTextEntry={secureTextEntry}
         autoFocus={autoFocus}
@@ -48,7 +43,6 @@ const Ainput = ({
         editable={editable}
         blurOnSubmit={true}
       />
-
     </View>
   );
 };
@@ -64,8 +58,8 @@ const styles = StyleSheet.create({
     borderRadius: 8,
     borderWidth: 1,
     borderColor: 'gray',
-    backgroundColor: '#fff'
+    backgroundColor: '#fff',
   },
 });
 
-export { Ainput };
+export {Ainput};
